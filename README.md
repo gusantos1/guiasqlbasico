@@ -27,6 +27,27 @@
 </table>
 </div>
 
+<table>
+<p align="center"><img align="center"><h2>DISTINCT</h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
+
+  ```sql
+  SELECT DISTINCT coluna1, coluna2, colunaN
+  FROM tabela;
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+<p>
+  comentários sobre o código.
+</p>
+</td>
+</tr>
+</table>
+</div>
+
 
 
 
