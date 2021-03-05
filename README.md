@@ -19,11 +19,9 @@
 </td>
 <!-- Tabela comentário-->
 <td>
-
-```
-esse faz tal coisa
-
-```
+<p>
+  comentários sobre o código.
+</p>
 </td>
 </tr>
 </table>
