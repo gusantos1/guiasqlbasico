@@ -4,7 +4,7 @@
 <div align="center">
 
 <table>
-<p align="center"><img align="center"><h2>Select</h2></p>
+<p align="center"><img align="center"><h2>SELECT</h2></p>
 <tr>
 <!-- Tabela code sql -->
 <td>
@@ -45,6 +45,98 @@
 </td>
 </tr>
 </table>
+
+<table>
+<p align="center"><img align="center"><h2>WHERE</h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
+
+  ```sql
+  SELECT coluna1, coluna2, colunaN
+  FROM tabela
+  WHERE condicao; : igual -> =  diferente -> <>
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+<p>
+  comentários sobre o código.
+</p>
+</td>
+</tr>
+</table>
+
+<table>
+<p align="center"><img align="center"><h2>COUNT</h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
+
+  ```sql
+  SELECT count(coluna)
+  FROM tabela;
+
+  SELECT count(DISTINCT coluna)
+  FROM tabela;
+
+  SELECT count(*)
+  FROM tabela;
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+<p>
+  comentários sobre o código.
+</p>
+</td>
+</tr>
+</table>
+
+<table>
+<p align="center"><img align="center"><h2>TOP</h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
+
+  ```sql
+  SELECT TOP quantidade colunaN
+  FROM tabela;
+
+  SELECT TOP quantidade *
+  FROM tabela;
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+<p>
+  comentários sobre o código.
+</p>
+</td>
+</tr>
+</table>
+
+<table>
+<p align="center"><img align="center"><h2>ORDER BY</h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
+
+  ```sql
+  SELECT colunaN
+  FROM tabela
+  ORDER BY colunaM asc/desc
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+<p>
+  comentários sobre o código.
+</p>
+</td>
+</tr>
+</table>
+
 </div>
 
 
