@@ -24,7 +24,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <td>
 <p>
   Comando básico para selecionar o conteúdo de N colunas. O conteúdo das linhas é o retorno da função. </br>
-  <p style="color:red">* Seleciona todas as colunas.</p>
+  <p style="color:#FF0000">* Seleciona todas as colunas.</p>
 </p>
 </td>
 </tr>
