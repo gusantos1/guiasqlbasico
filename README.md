@@ -4,8 +4,9 @@
 <div align="center">
 
 <table>
+<p align="center"><img align="center"></p>
 <tr>
-<p align="center"><img align="center"><h2>SELECT</h2></p>
+<td>
 
   ```sql
     SELECT coluna1, coluna2, colunaN
@@ -15,7 +16,6 @@
     FROM tabela;
   
   ```
-<td>
 </td>
 </tr>
 </table>
