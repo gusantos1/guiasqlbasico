@@ -25,7 +25,6 @@
 </td>
 </tr>
 </table>
-</div>
 
 <table>
 <p align="center"><img align="center"><h2>DISTINCT</h2></p>
