@@ -6,6 +6,7 @@
 <table>
 <p align="center"><img align="center"><h2>Select</h2></p>
 <tr>
+<!-- Tabela code sql -->
 <td>
 
   ```sql
@@ -14,13 +15,15 @@
 
     SELECT *
     FROM tabela;
-  
   ```
 </td>
+<!-- Tabela comentário-->
 <td>
-<p>
-oaisuiahuishauihsuiahuisahuishauihsiua
-</p>
+
+```
+esse faz tal coisa
+
+```
 </td>
 </tr>
 </table>
