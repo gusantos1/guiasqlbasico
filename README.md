@@ -1,5 +1,5 @@
 
-# GUIA BÁSICO DE SQL <img src="https://raw.githubusercontent.com/gusantos1/icons/main/iconsql.png" width="40%">
+# GUIA BÁSICO DE SQL <img src="https://raw.githubusercontent.com/gusantos1/icons/main/iconsql.png" width="20%">
 
 ---
 Esse repositório contém comandos básicos de SQL para você manipular um banco de dados de forma objetiva.</br>Os comentários contidos em cada função podem trazer analogias com linguagens de programação para melhor entendimento.
@@ -24,7 +24,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <td>
 <p>
   Comando básico para selecionar o conteúdo de N colunas. O conteúdo das linhas é o retorno da função. </br>
-  <p style="color:#FF0000">* Seleciona todas as colunas.</p>
+  <p style="color:#FF0000"><strong>*</strong> Seleciona todas as colunas.</p>
 </p>
 </td>
 </tr>
@@ -44,7 +44,8 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  comentários sobre o código.
+  Desconsidera dados duplicados dentro de uma tabela.<\br>
+  Vale lembrar da função <strong>Set</strong> em Python que elimina a repetição de dados num iterável.
 </p>
 </td>
 </tr>
