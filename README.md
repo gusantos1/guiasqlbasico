@@ -4,7 +4,7 @@
 <div align="center">
 
 <table>
-<p align="center"><img align="center">Select</p>
+<p align="center"><img align="center"><h2>Select</h2></p>
 <tr>
 <td>
 
