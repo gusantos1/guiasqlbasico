@@ -5,7 +5,6 @@
 
 <table>
 <tr>
-<td>
 <p align="center"><img align="center"><h2>SELECT</h2></p>
 
   ```sql
@@ -16,6 +15,7 @@
     FROM tabela;
   
   ```
+<td>
 </td>
 </tr>
 </table>
