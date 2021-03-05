@@ -1,5 +1,10 @@
 
-# SQL <img src="https://raw.githubusercontent.com/gusantos1/icons/main/iconsql.png" width="30">
+# GUIA BÁSICO DE SQL <img src="https://raw.githubusercontent.com/gusantos1/icons/main/iconsql.png" width="30">
+
+---
+Esse repositório contém comandos básicos de SQL para você manipular um banco de dados de forma objetiva. Os comentários contidos em cada função podem trazer analogias com linguagens de programação para melhor entendimento.
+
+---
 
 <div align="center">
 
@@ -20,7 +25,8 @@
 <!-- Tabela comentário-->
 <td>
 <p>
-  comentários sobre o código.
+  Comando básico para selecionar o conteúdo de N colunas. O conteúdo das linhas é o retorno da função. </br>
+  <p style="color:red"><strong>*</strong> Seleciona todas as colunas.</p>
 </p>
 </td>
 </tr>
