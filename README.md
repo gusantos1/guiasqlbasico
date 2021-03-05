@@ -1,13 +1,11 @@
 
-# GUIA BÁSICO DE SQL <img src="https://raw.githubusercontent.com/gusantos1/icons/main/iconsql.png" width="30">
+# GUIA BÁSICO DE SQL <img src="https://raw.githubusercontent.com/gusantos1/icons/main/iconsql.png" width="40%">
 
 ---
-Esse repositório contém comandos básicos de SQL para você manipular um banco de dados de forma objetiva. Os comentários contidos em cada função podem trazer analogias com linguagens de programação para melhor entendimento.
-
+Esse repositório contém comandos básicos de SQL para você manipular um banco de dados de forma objetiva.</br>Os comentários contidos em cada função podem trazer analogias com linguagens de programação para melhor entendimento.
 ---
 
 <div align="center">
-
 <table>
 <p align="center"><img align="center"><h2>SELECT</h2></p>
 <tr>
@@ -26,7 +24,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <td>
 <p>
   Comando básico para selecionar o conteúdo de N colunas. O conteúdo das linhas é o retorno da função. </br>
-  <p style="color:red"><strong>*</strong> Seleciona todas as colunas.</p>
+  <p style="color:red">* Seleciona todas as colunas.</p>
 </p>
 </td>
 </tr>
