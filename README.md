@@ -194,6 +194,31 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 </table>
 
 
+<table>
+<p align="center"><img align="center"><h2>IN</h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
+
+  ```sql
+  SELECT *
+  FROM pessoas.dados
+  WHERE nascimento in (1992, 2000, 2011);
+  
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+<p>
+  <li> O IN trás o sentido de "Contém" tais elementos.</br>Em uma estrutura condição como no python, usamos o in para verificar se um valor está contido em algo. Nesse caso podemos pensar o inverso. </li>
+  <li> É claro que uma estrutura condicional usando WHERE e uma série de OR trazem o mesmo retorno para condição.</li>
+
+  <li> A função ao lado -> Retorna todos os dados de pessoas nascidas nos anos de 1992, 2000 e 2011.</li>
+</p>
+</td>
+</tr>
+</table>
+
 
 
 </div>
