@@ -146,7 +146,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
   FROM tabela
   ORDER BY colunaM asc/desc;
 
-  SELECT TOP 10 Nome,  Preco
+  SELECT TOP 10 Nome, Preco
   FROM produtos.disponiveis
   ORDER BY Preco desc;
   ```
@@ -154,7 +154,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  Essa função ordena os resultados obtidos de uma coluna.</br>Em algumas linguagens é similar as funções sorted e reverse, pois ordena de forma crescente e decrescente tanto pra números e alfabeto.</br>
+  Essa função ordena os resultados obtidos de uma coluna.</br>Em algumas linguagens é similar as funções <strong>sorted</strong> e <strong>reverse</strong>, pois ordena de forma crescente e decrescente tanto pra números e alfabeto.</br>
   A função ao lado -> Retorna o nome e o preço dos 10 primeiros produtos mais caros.
 </p>
 </td>
