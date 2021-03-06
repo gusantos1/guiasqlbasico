@@ -1,5 +1,5 @@
 
-# GUIA BÁSICO DE SQL <img src="https://raw.githubusercontent.com/gusantos1/icons/main/iconsql.png" width="15%">
+# <img src="https://raw.githubusercontent.com/gusantos1/icons/main/iconsql.png" width="15%"> GUIA BÁSICO DE SQL
 
 ---
 Esse repositório contém comandos básicos de SQL para você manipular um banco de dados de forma objetiva.</br>Os comentários contidos em cada função podem trazer analogias com linguagens de programação para melhor entendimento.
