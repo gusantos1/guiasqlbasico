@@ -64,7 +64,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
   WHERE condicao;
 
   SELECT Nome, idade
-  FROM tabela
+  FROM pessoas.alunos
   WHERE idade > 18;
   ```
 </td>
@@ -72,9 +72,10 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <td>
 <p>
   É a forma de se montar uma estrutura condicional no SQL.</br>
-  Os operadores lógicos são os mesmos da maioria das linguagens, com a ressalva de:</br>
+  Os operadores lógicos são os mesmos da maioria das linguagens de programação, com a ressalva de:</br>
   igual: <strong>=</strong></br>
   diferente: <strong><></strong>
+  Na função ao lado -> Retorna o nome e idade de alunos maiores de 18 anos.
 </p>
 </td>
 </tr>
@@ -100,7 +101,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  É um contador que funciona como a função len/length de outras linguagens.</br>
+  É um contador que funciona como a função len/length de outras linguagens de programação.</br>
   Na primeira função -> Retorna o número total de linhas dentro da colunaN.</br>
   Na segunda função -> Retorna o número total de linhas dentro da coluna desconsiderando dados duplicados.</br>
   Na terceira função -> retorna a quantidade total de todas as linhas (somatório de linhas de todas as colunas).
@@ -126,8 +127,8 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  Define a quantidade de retorno de linhas.
-  Na primeira função -> Retorna 12 linhas da colunaN.
+  Define a quantidade de retorno de linhas.</br>
+  Na primeira função -> Retorna 12 linhas da colunaN.</br>
   Na segunda função -> Retorna 10 linhas de todas (*) as colunas.
 </p>
 </td>
@@ -143,13 +144,18 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
   ```sql
   SELECT colunaN
   FROM tabela
-  ORDER BY colunaM asc/desc
+  ORDER BY colunaM asc/desc;
+
+  SELECT TOP 10 Nome,  Preco
+  FROM produtos.disponiveis
+  ORDER BY Preco desc;
   ```
 </td>
 <!-- Tabela comentário-->
 <td>
 <p>
-  comentários sobre o código.
+  Essa função ordena os resultados obtidos de uma coluna.</br>Em algumas linguagens é similar as funções sorted e reverse, pois ordena de forma crescente e decrescente tanto pra números e alfabeto.</br>
+  A função ao lado -> Retorna o nome e o preço dos 10 primeiros produtos mais caros.
 </p>
 </td>
 </tr>
