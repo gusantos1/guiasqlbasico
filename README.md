@@ -31,6 +31,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 </tr>
 </table>
 
+
 <table>
 <p align="center"><img align="center"><h2>DISTINCT</h2></p>
 <tr>
@@ -81,6 +82,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 </tr>
 </table>
 
+
 <table>
 <p align="center"><img align="center"><h2>COUNT</h2></p>
 <tr>
@@ -110,6 +112,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 </tr>
 </table>
 
+
 <table>
 <p align="center"><img align="center"><h2>TOP</h2></p>
 <tr>
@@ -134,6 +137,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 </td>
 </tr>
 </table>
+
 
 <table>
 <p align="center"><img align="center"><h2>ORDER BY</h2></p>
@@ -160,6 +164,34 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 </td>
 </tr>
 </table>
+
+
+<table>
+<p align="center"><img align="center"><h2>BETWEEN</h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
+
+  ```sql
+  SELECT id_mercadoria, preco
+  FROM produtos.preco
+  WHERE preco BETWEEN 200 and 880;
+  
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+<p>
+  É basicamente uma condição lógica atrelada ao WHERE para comparação de mínimo e máximo.</br>
+  Equivale a fazer valor <strong>>=</strong> condicao and valor <strong><=</strong> condicao.</br>
+  A função ao lado -> Retorna o id e o preço de todas as mercadorias entre 200 e 880, inclusive.
+</p>
+</td>
+</tr>
+</table>
+
+
+
 
 </div>
 
