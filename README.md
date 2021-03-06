@@ -182,8 +182,8 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  <li> É basicamente uma condição lógica atrelada ao WHERE para comparação de mínimo e máximo.</li></br>
-  <li> Equivale a fazer valor <strong>>=</strong> condicao and valor <strong><=</strong> condicao.</li></br>
+  <li> É basicamente uma condição lógica atrelada ao WHERE para comparação de mínimo e máximo.</li>
+  <li> Equivale a fazer valor <strong>>=</strong> condicao and valor <strong><=</strong> condicao.</li>
   <li> A função ao lado -> Retorna o id e o preço de todas as mercadorias entre 200 e 880, inclusive.</li>
 </p>
 </td>
