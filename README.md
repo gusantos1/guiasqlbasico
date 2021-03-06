@@ -24,7 +24,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <td>
 <p>
   Comando básico para selecionar o conteúdo de N colunas. O conteúdo das linhas é o retorno da função. </br>
-  <p style="color:#FF0000"><strong>*</strong> Seleciona todas as colunas.</p>
+  <p style="color:#FF0000"><strong>(*)</strong> Seleciona todas as colunas.</p>
 </p>
 </td>
 </tr>
@@ -71,8 +71,8 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <td>
 <p>
   É a forma de se montar uma estrutura condicional no SQL.</br>
-  Os operadores lógicos são os mesmos, com a ressalva de:</br>
-  igual: <strong>=</strong>
+  Os operadores lógicos são os mesmos da maioria das linguagens, com a ressalva de:</br>
+  igual: <strong>=</strong></br>
   diferente: <strong><></strong>
 </p>
 </td>
@@ -100,8 +100,8 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <td>
 <p>
   É um contador que funciona como a função len/length de outras linguagens.</br>
-  Na primeira função -> Retorna o número total de linhas dentro da colunaN.
-  Na segunda função -> Retorna o número total de linhas dentro da coluna desconsiderando dados duplicados.
+  Na primeira função -> Retorna o número total de linhas dentro da colunaN.</br>
+  Na segunda função -> Retorna o número total de linhas dentro da coluna desconsiderando dados duplicados.</br>
   Na terceira função -> retorna a quantidade total de todas as linhas (somatório de linhas de todas as colunas).
 </p>
 </td>
