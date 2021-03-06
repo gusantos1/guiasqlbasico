@@ -24,7 +24,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  Comando básico para selecionar o conteúdo de N colunas. O conteúdo das linhas é o retorno da função. </br>
+  <li>Comando básico para selecionar o conteúdo de N colunas. O conteúdo das linhas é o retorno da função.</li>
   <p style="color:#FF0000"><strong>(*)</strong> Seleciona todas as colunas.</p>
 </p>
 </td>
@@ -46,8 +46,8 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  Desconsidera dados duplicados dentro de uma tabela.</br>
-  Vale lembrar da função <strong>Set</strong> em Python que elimina a repetição de dados num iterável.
+  <li>Desconsidera dados duplicados dentro de uma tabela.</li>
+  <li>Vale lembrar da função <strong>Set</strong> em Python que elimina a repetição de dados num iterável.</li>
 </p>
 </td>
 </tr>
@@ -72,11 +72,11 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  É a forma de se montar uma estrutura condicional no SQL.</br>
-  Os operadores lógicos são os mesmos da maioria das linguagens de programação, com a ressalva de:</br>
-  igual: <strong>=</strong></br>
-  diferente: <strong><></strong>
-  Na função ao lado -> Retorna o nome e idade de alunos maiores de 18 anos.
+  <li>É a forma de se montar uma estrutura condicional no SQL.</li>
+  <li>Os operadores lógicos são os mesmos da maioria das linguagens de programação, com a ressalva de:</li>
+  <li>igual: <strong>=</strong></li>
+  <li>diferente: <strong><></strong></li>
+  <li>Na função ao lado -> Retorna o nome e idade de alunos maiores de 18 anos.</li>
 </p>
 </td>
 </tr>
@@ -103,10 +103,10 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  É um contador que funciona como a função len/length de outras linguagens de programação.</br>
-  Na primeira função -> Retorna o número total de linhas dentro da colunaN.</br>
-  Na segunda função -> Retorna o número total de linhas dentro da coluna desconsiderando dados duplicados.</br>
-  Na terceira função -> retorna a quantidade total de todas as linhas (somatório de linhas de todas as colunas).
+  <li>É um contador que funciona como a função len/length de outras linguagens de programação.</li>
+  <li>Na primeira função -> Retorna o número total de linhas dentro da colunaN.</li>
+  <li>Na segunda função -> Retorna o número total de linhas dentro da coluna desconsiderando dados duplicados.</li>
+  <li>Na terceira função -> retorna a quantidade total de todas as linhas (somatório de linhas de todas as colunas).</li>
 </p>
 </td>
 </tr>
@@ -130,9 +130,9 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  Define a quantidade de retorno de linhas.</br>
-  Na primeira função -> Retorna 12 linhas da colunaN.</br>
-  Na segunda função -> Retorna 10 linhas de todas (*) as colunas.
+  <li>Define a quantidade de retorno de linhas.</li>
+  <li>Na primeira função -> Retorna 12 linhas da colunaN.</li>
+  <li>Na segunda função -> Retorna 10 linhas de todas (*) as colunas.</li>
 </p>
 </td>
 </tr>
@@ -158,8 +158,9 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  Essa função ordena os resultados obtidos de uma coluna.</br>Em algumas linguagens é similar as funções <strong>sorted</strong> e <strong>reverse</strong>, pois ordena de forma crescente e decrescente tanto pra números e alfabeto.</br>
-  A função ao lado -> Retorna o nome e o preço dos 10 primeiros produtos mais caros.
+  <li>Essa função ordena os resultados obtidos de uma coluna.</li>
+  <li>Em algumas linguagens é similar as funções <strong>sorted</strong> e <strong>reverse</strong>, pois ordena de forma crescente e decrescente tanto pra números e alfabeto.</li>
+  <li>A função ao lado -> Retorna o nome e o preço dos 10 primeiros produtos mais caros.</li>
 </p>
 </td>
 </tr>
