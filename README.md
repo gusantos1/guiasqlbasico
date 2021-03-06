@@ -74,8 +74,10 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <p>
   <li>É a forma de se montar uma estrutura condicional no SQL.</li>
   <li>Os operadores lógicos são os mesmos da maioria das linguagens de programação, com a ressalva de:</li>
-  igual: <strong>=</strong></br>
-  diferente: <strong><></strong></br>
+  <ol>
+  <li>igual: <strong>=</strong></li>
+  <li>diferente: <strong><></strong></li>
+  </ol>
   <li>Na função ao lado -> Retorna o nome e idade de alunos maiores de 18 anos.</li>
 </p>
 </td>
