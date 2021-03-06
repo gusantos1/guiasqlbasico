@@ -44,7 +44,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  Desconsidera dados duplicados dentro de uma tabela.<\br>
+  Desconsidera dados duplicados dentro de uma tabela.</br>
   Vale lembrar da função <strong>Set</strong> em Python que elimina a repetição de dados num iterável.
 </p>
 </td>
@@ -60,13 +60,20 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
   ```sql
   SELECT coluna1, coluna2, colunaN
   FROM tabela
-  WHERE condicao; : igual -> =  diferente -> <>
+  WHERE condicao;
+
+  SELECT Nome, idade
+  FROM tabela
+  WHERE idade > 18;
   ```
 </td>
 <!-- Tabela comentário-->
 <td>
 <p>
-  comentários sobre o código.
+  É a forma de se montar uma estrutura condicional no SQL.</br>
+  Os operadores lógicos são os mesmos, com a ressalva de:</br>
+  igual: <strong>=</strong>
+  diferente: <strong><></strong>
 </p>
 </td>
 </tr>
@@ -79,7 +86,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <td>
 
   ```sql
-  SELECT count(coluna)
+  SELECT count(colunaN)
   FROM tabela;
 
   SELECT count(DISTINCT coluna)
@@ -92,7 +99,10 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  comentários sobre o código.
+  É um contador que funciona como a função len/length de outras linguagens.</br>
+  Na primeira função -> Retorna o número total de linhas dentro da colunaN.
+  Na segunda função -> Retorna o número total de linhas dentro da coluna desconsiderando dados duplicados.
+  Na terceira função -> retorna a quantidade total de todas as linhas (somatório de linhas de todas as colunas).
 </p>
 </td>
 </tr>
@@ -105,17 +115,19 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <td>
 
   ```sql
-  SELECT TOP quantidade colunaN
+  SELECT TOP 12 colunaN
   FROM tabela;
 
-  SELECT TOP quantidade *
+  SELECT TOP 10 *
   FROM tabela;
   ```
 </td>
 <!-- Tabela comentário-->
 <td>
 <p>
-  comentários sobre o código.
+  Define a quantidade de retorno de linhas.
+  Na primeira função -> Retorna 12 linhas da colunaN.
+  Na segunda função -> Retorna 10 linhas de todas (*) as colunas.
 </p>
 </td>
 </tr>
