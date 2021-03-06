@@ -3,6 +3,7 @@
 
 ---
 Esse repositório contém comandos básicos de SQL para você manipular um banco de dados de forma objetiva.</br>Os comentários contidos em cada função podem trazer analogias com linguagens de programação para melhor entendimento.
+
 ---
 
 <div align="center">
