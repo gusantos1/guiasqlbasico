@@ -210,7 +210,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  <li> O IN trás o sentido de "Contém" tais elementos.</br>Em uma estrutura condição como no python, usamos o in para verificar se um valor está contido em algo. Nesse caso podemos pensar o inverso. </li>
+  <li> O IN traz o sentido de "Contém" tais elementos.</br>Em uma estrutura condição como no python, usamos o in para verificar se um valor está contido em algo. Nesse caso podemos pensar o inverso. </li>
   <li> É claro que uma estrutura condicional usando WHERE e uma série de OR trazem o mesmo retorno para condição.</li>
 
   <li> A função ao lado -> Retorna todos os dados de pessoas nascidas nos anos de 1992, 2000 e 2011.</li>
