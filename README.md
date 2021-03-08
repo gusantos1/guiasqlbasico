@@ -261,7 +261,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  <li> As funções desse tópico são comuns em bibliotecas Math entre várias linguagens de progração: Mínimo, Maxáximo, Somatório e Média.</li>
+  <li> As funções desse tópico são comuns em bibliotecas Math entre várias linguagens de progração: Mínimo, Máximo, Somatório e Média.</li>
   <li> As funções ao lado -> Retornam o mínimo, o máximo, o somatório e a média de todos os valores na coluina de 'Valores Unitários'.</li>
 </p>
 </td>
