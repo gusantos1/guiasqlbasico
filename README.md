@@ -236,8 +236,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  <li> O LIKE funciona para encontrar um dado em determina coluna mesmo não obtendo os caractéres completos. A idéia é similar ao método <strong>find</strong> contido no python. </li></br>
-  <li> É claro que uma estrutura condicional usando WHERE e uma série de OR, que trazem o mesmo retorno para condição.</li></br>
+  <li> O LIKE funciona para encontrar um dado em determina coluna mesmo não obtendo os caractéres completos. A idéia é similar ao método <strong>find</strong> contido no python. </li>
   <li> A função ao lado -> Retorna todos os dados de pessoas que contém 'San' no sobrenome, podendo ser: Santos, Santiago,Sampaio, etc.</li>
 </p>
 </td>
