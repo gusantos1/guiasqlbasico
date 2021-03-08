@@ -161,7 +161,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <td>
 <p>
   <li>Essa função ordena os resultados obtidos de uma coluna.</li>
-  <li>Em algumas linguagens é similar as funções <strong>sorted</strong> e <strong>reverse</strong>, pois ordena de forma crescente e decrescente tanto pra números e alfabeto.</li>
+  <li>Em algumas linguagens é similar as funções <strong>sorted()</strong> e <strong>reverse()</strong>, pois ordena de forma crescente e decrescente tanto pra números e alfabeto.</li>
   <li>A função ao lado -> Retorna o nome e o preço dos 10 primeiros produtos mais caros.</li>
 </p>
 </td>
@@ -186,7 +186,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <td>
 <p>
   <li> É basicamente uma condição lógica atrelada ao WHERE para comparação de mínimo e máximo.</li>
-  <li> Equivale a fazer valor <strong>>=</strong> condicao and valor <strong><=</strong> condicao.</li>
+  <li> Equivale a fazer valor <strong> >= </strong> condicao and valor <strong> <= </strong> condicao.</li>
   <li> A função ao lado -> Retorna o id e o preço de todas as mercadorias entre 200 e 880, inclusive.</li>
 </p>
 </td>
@@ -211,7 +211,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <td>
 <p>
   <li> O IN traz o sentido de "Contém" tais elementos.</br>Em uma estrutura condição como no python, usamos o in para verificar se um valor está contido em algo. Nesse caso podemos pensar o inverso. </li>
-  <li> É claro que uma estrutura condicional usando WHERE e uma série de OR, que trazem o mesmo retorno para condição.</li>
+  <li> Uma estrutura condicional usando WHERE e uma série de OR também trará o mesmo retorno para condição.</li>
 
   <li> A função ao lado -> Retorna todos os dados de pessoas nascidas nos anos de 1992, 2000 e 2011.</li>
 </p>
@@ -236,7 +236,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  <li> O LIKE funciona para encontrar um dado em determina coluna mesmo não obtendo os caractéres completos. A idéia é similar ao método <strong>find</strong> contido no python. </li>
+  <li> O LIKE funciona para encontrar um dado em determina coluna mesmo não obtendo os caracteres completos. A idéia é similar ao método <strong>find()</strong> contido no python. </li>
   <li> A função ao lado -> Retorna todos os dados de pessoas que contém 'San' no sobrenome, podendo ser: Santos, Santiago,Sampaio, etc.</li>
 </p>
 </td>
