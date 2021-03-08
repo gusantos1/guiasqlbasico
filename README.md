@@ -269,6 +269,30 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 </table>
 
 
+<table>
+<p align="center"><img align="center"><h2>GROUP BY</h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
+
+  ```sql
+  SELECT Naturalidade, COUNT(nome)
+  FROM pessoas.dados
+  GROUP BY Naturalidade;
+  
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+<p>
+  <li> O GROUP BY possui uma finalidade interessante, é comum o uso desse método com uma função de agregação(count, sum) para visualização de dados por grupo. </li>
+  <li> A função ao lado -> Agrupa por Naturalidade e atribui o número total de pessoas por região.</li>
+</p>
+</td>
+</tr>
+</table>
+
+
 </div>
 
 
