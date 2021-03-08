@@ -244,6 +244,31 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 </table>
 
 
+<table>
+<p align="center"><img align="center"><h2>MIN MAX SUM AVG</h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
+
+  ```sql
+  SELECT MIN (vunitario) FROM produtos.precos;
+  SELECT MAX (vunitario) FROM produtos.precos;
+  SELECT SUM (vunitario) FROM produtos.precos;
+  SELECT AVG (vunitario) FROM produtos.precos;
+  
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+<p>
+  <li> As funções desse tópico são comuns em bibliotecas Math entre várias linguagens de progração: Mínimo, Maxáximo, Somatório e Média.</li>
+  <li> As funções ao lado -> Retornam o mínimo, o máximo, o somatório e a média de todos os valores na coluina de 'Valores Unitários'.</li>
+</p>
+</td>
+</tr>
+</table>
+
+
 </div>
 
 
