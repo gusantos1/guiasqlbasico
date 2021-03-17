@@ -294,14 +294,16 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 
 
 <table>
-<p align="center"><img align="center"><h2></h2></p>
+<p align="center"><img align="center"><h2>HAVING</h2></p>
 <tr>
 <!-- Tabela code sql -->
 <td>
 
   ```sql
-  SELECT 
-  FROM 
+  SELECT Peixes, sum(Pfinal) as 'Total'
+  FROM Mercadorias.peixes
+  GROUP BY Peixes
+  HAVING Total BETWEEN 200 and 400;
   
   
   ```
@@ -309,8 +311,9 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <!-- Tabela comentário-->
 <td>
 <p>
-  <li> coment </li>
-  <li> coment.</li>
+  <li> O HAVING é uma condicional para ser aplicada após o GROUP BY. </li>
+  <li> Ele funciona como um último filtro pro retorno da query</li>
+  <li> A função ao lado -> Cria um grupo(tabela) com o nome dos Peixes e outra com o Total que é o somatório do preço final de cada; e retorna aqueles em que o valor Pfinal estiver entre 200 e 400, inclusive.</li>
 </p>
 </td>
 </tr>
