@@ -293,6 +293,29 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 </table>
 
 
+<table>
+<p align="center"><img align="center"><h2></h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
+
+  ```sql
+  SELECT 
+  FROM 
+  
+  
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+<p>
+  <li> coment </li>
+  <li> coment.</li>
+</p>
+</td>
+</tr>
+</table>
+
 </div>
 
 
