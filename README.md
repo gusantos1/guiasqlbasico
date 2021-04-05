@@ -303,7 +303,7 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
   SELECT Peixes, sum(Pfinal) as 'Total'
   FROM Mercadorias.peixes
   GROUP BY Peixes
-  HAVING Total BETWEEN 200 and 400;
+  HAVING sum(Pfinal) BETWEEN 200 and 400;
   
   
   ```
@@ -312,12 +312,53 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 <td>
 <p>
   <li> O HAVING é uma condicional para ser aplicada após o GROUP BY. </li>
-  <li> Ele funciona como um último filtro pro retorno da query</li>
+  <li> Ele funciona como um filtro <strong>APÓS</strong> o group by</li>
   <li> A função ao lado -> Cria um grupo(tabela) com o nome dos Peixes e outra com o Total que é o somatório do preço final de cada; e retorna aqueles em que o valor Pfinal estiver entre 200 e 400, inclusive.</li>
 </p>
 </td>
 </tr>
 </table>
+
+
+<table>
+<p align="center"><img align="center"><h2>INNER JOIN</h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
+
+  ```sql
+  SELECT p.BusinessEntityID,p.FirstName, p.LastName, pe.EmailAddress
+  FROM person.Person as p
+  INNER JOIN Person.EmailAddress as pe on p.BusinessEntityID = pe.BusinessEntityID;  
+  
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+<p>
+  <li> O INNER JOIN é uma forma de concatenção de dados entre as tabelas.</li>
+  <li> É possível concatenar informações a apartir de uma coluna que esteja presente nas duas tabelas. </li>
+  <li> É importante o uso da AS para diferenciar os atributos.</li>
+</p>
+</td>
+</tr>
+</table>
+
+
+<table>
+<p align="center"><img align="center"><h2>TIPOS DE JOIN</h2></p>
+<tr>
+
+<td>
+<p>
+  <img src="https://github.com/gusantos1/icons/blob/main/inner.png" width="30%">
+  <img src="https://github.com/gusantos1/icons/blob/main/left.png" width="30%">
+  <img src="https://github.com/gusantos1/icons/blob/main/fullouter.png" width="30%">
+</p>
+</td>
+</tr>
+</table>
+
 
 </div>
 
