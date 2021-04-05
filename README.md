@@ -351,9 +351,9 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 
 <td>
 <p>
-  <img src="https://github.com/gusantos1/icons/blob/main/inner.png" width="30%">
-  <img src="https://github.com/gusantos1/icons/blob/main/left.png" width="30%">
-  <img src="https://github.com/gusantos1/icons/blob/main/fullouter.png" width="30%">
+  <img src="https://github.com/gusantos1/icons/blob/main/inner.png" width="60%">
+  <img src="https://github.com/gusantos1/icons/blob/main/left.png" width="60%">
+  <img src="https://github.com/gusantos1/icons/blob/main/fullouter.png" width="60%">
 </p>
 </td>
 </tr>
