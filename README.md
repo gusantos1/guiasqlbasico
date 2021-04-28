@@ -438,7 +438,11 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 </td>
 <!-- Tabela comentário-->
 <td>
-
+<p>
+  <li></li>
+  <li></li>
+  <li></li>
+</p>
 </td>
 </tr>
 </table>
