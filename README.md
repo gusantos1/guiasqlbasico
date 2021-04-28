@@ -443,7 +443,28 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 
 
 
+<table>
+<p align="center"><img align="center"><h2>SUBQUERY</h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
 
+  ```sql
+  SELECT Name, ListPrice
+  FROM Production.Product
+  WHERE ListPrice > (SELECT AVG(LISTPRICE) FROM Production.Product)
+  
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+<p>
+  <li>Subquery é usado como incremento dentro de uma condicional quando há necessidade de múltiplas consultas na mesma tabela.</li>
+  <li>A função ao lado -> Retornará duas colunas: O Nome e o preço de todos os produtos com os preços acima da média.</li>
+</p>
+</td>
+</tr>
+</table>
 
 
 
