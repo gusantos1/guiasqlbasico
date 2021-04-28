@@ -361,6 +361,94 @@ Esse repositório contém comandos básicos de SQL para você manipular um banco
 </table>
 
 
+<table>
+<p align="center"><img align="center"><h2>UNION</h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
+
+  ```sql
+  SELECT Mercadoria, Valor
+  FROM tabela.lojaA
+  UNION
+  SELECT Mercadoria, Valor
+  FROM  tabela2.lojaB
+  
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+<p>
+  <li> O UNION é uma forma de unir dados de tipos iguais.</li>
+  <li> Não se trata de concatenção, e sim de por na mesma coluna dados de tipos iguais. </li>
+  <li> A função ao lado -> Cria uma coluna Mercadoria, com todos os nomes das duas tabelas e Valor, com todos os valores das duas tabelas.</li>
+</p>
+</td>
+</tr>
+</table>
+
+
+<table>
+<p align="center"><img align="center"><h2>DATEPART</h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
+
+  ```sql
+  SELECT MercadoriaID,DATEPART(month, validadeDoProduto) as validade
+  FROM tabela.lojaA
+  
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+<p>
+  <li>O DATEPART é uma função para manipulação de dados do tipo data.</li>
+  <li>Vamos compará-la com o uso do <strong>datetime</strong> presente no python.</li>
+  <li>A função ao lado -> Retornará duas colunas: O id da mercadoria e o mês de validade.</li>
+</p>
+</td>
+</tr>
+</table>
+
+
+
+<table>
+<p align="center"><img align="center"><h2>MANIPULAÇÃO DE STRINGS</h2></p>
+<tr>
+<!-- Tabela code sql -->
+<td>
+
+  ```sql
+  SELECT CONCAT(FirstName, ``, LastName)
+  FROM Person.Person
+  
+  SELECT UPPER(FirstName), LOWER(LastName)
+  FROM Person.Person
+
+  SELECT LEN(FirstName)
+  FROM Person.Person
+
+  SELECT SUBSTRING(FirstName, 1, 3) -- FATIAMENTO
+  FROM Person.Person
+
+  SELECT REPLACE(FirstName, 'Clark', 'Ralph')
+  FROM Person.Person
+  ```
+</td>
+<!-- Tabela comentário-->
+<td>
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
 </div>
 
 
